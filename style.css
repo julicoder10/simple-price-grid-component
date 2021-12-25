@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+body{
+    background: hsl(204, 43%, 93%);
+}
+p{
+    font-size:16px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:700px;
+    margin: auto;
+    margin-top:100px;
+    font-family: 'Karla', sans-serif;
+    background:white;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+}
+.sub-container{
+    display: flex;
+    height:50%;
+}
+.community{
+    height:50%;
+    padding:40px;
+}
+.community p{
+    color: hsla(0, 0%, 58%, 0.863);
+}
+.community-title{
+    color:hsl(179, 62%, 43%);
+    font-weight:700;
+    font-size:25px;
+}
+.day{
+    color:hsl(71, 73%, 54%);
+}
+.subscription{
+    width:270px;
+    background:hsl(179, 62%, 43%);
+    border-bottom-left-radius:10px;
+    padding:40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.subscription-title{
+    font-size:20px;
+    color: hsl(204, 43%, 93%);
+    margin-right:60px;
+}
+.subscription-p{
+    color: hsl(204, 43%, 93%);
+}
+.subscription-button{
+    padding:15px;
+    background-color: hsl(71, 73%, 54%);
+    width:200px;
+    text-decoration: none;
+    text-align: center;
+    border-radius:5px;
+    color:hsl(204, 43%, 93%);
+}
+.whyUs{
+    width: 270px;
+    background-color: hsla(179, 62%, 43%, 0.829);
+    border-bottom-right-radius:10px;
+    padding:40px;
+}
+.whyUs-title{
+    font-size:20px;
+    
+    color: hsl(204, 43%, 93%);
+    
+}
+.whyUs h2{
+    font-weight: 700;
+
+}
+.whyUs p{
+    color: hsl(204, 43%, 93%);
+    font-weight:lighter;
+    font-size:16px;
+    width:220px;
+    opacity:90%;
+    line-height:25px;
+}
+.price{
+    font-size:40px;
+    color: hsl(204, 43%, 93%);
+}
+.price-text{
+    margin-right:120px;
+    display: flex;
+    align-items: center;
+    color:hsla(203, 44%, 93%, 0.74);
+}
+
+@media only screen and (max-width : 900px) {
+    .container{
+        width:100%;
+    }
+    .sub-container{
+        display: flex;
+        flex-direction: column;
+        width:200px;
+        flex-wrap: wrap;
+    }
+    .subscription{
+        
+    }
+    .whyUs{
+        
+    
+    }
+}
