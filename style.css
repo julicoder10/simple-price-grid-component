@@ -99,7 +99,7 @@ p{
 
 @media only screen and (max-width : 900px) {
     .container{
-        width:100%;
+        width:350px;
     }
     .sub-container{
         display: flex;
@@ -108,10 +108,9 @@ p{
         flex-wrap: wrap;
     }
     .subscription{
-        
+        border-radius:0;
     }
     .whyUs{
-        
-    
+        border-bottom-left-radius:10px;
     }
 }
